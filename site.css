@@ -19,12 +19,14 @@ p.pills {
   margin: 2em;
   text-align: center;
 }
-a.active {
+p.pills a {
   padding: 6px 15px;
   border-radius: 3px;
+  margin: 10px 15px;
+}
+a.active {
   background-color: #666;
   color: #eee;
-  margin: 10px 30px;
 }
 p.foot {
   position: fixed;
